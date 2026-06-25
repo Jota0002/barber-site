@@ -1,0 +1,29 @@
+import SiteHeader from "@/components/SiteHeader";
+import Hero from "@/components/sections/Hero";
+import About from "@/components/sections/About";
+import Parallax from "@/components/sections/Parallax";
+import StoryShowcase from "@/components/sections/StoryShowcase";
+import NeonCallout from "@/components/sections/NeonCallout";
+import AppScreens from "@/components/sections/AppScreens";
+import AgendaFeature from "@/components/sections/AgendaFeature";
+import Faq from "@/components/sections/Faq";
+import Offer from "@/components/sections/Offer";
+import StickyCta from "@/components/StickyCta";
+
+export default function Home() {
+  return (
+    <main className="flex flex-1 flex-col">
+      <SiteHeader />
+      <Hero />
+      <About />
+      <Parallax />
+      <StoryShowcase />
+      <NeonCallout />
+      <AppScreens />
+      <AgendaFeature />
+      <Faq />
+      <Offer />
+      <StickyCta />
+    </main>
+  );
+}
