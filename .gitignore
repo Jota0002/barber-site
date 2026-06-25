@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# arquivos de referência locais (não usados pelo site em produção)
+/stmodelos
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
