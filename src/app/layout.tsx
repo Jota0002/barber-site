@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Barbergram Pro | Conteúdos animados para barbeiros",
   description:
     "O maior e mais completo grupo de conteúdos para barbeiros da América Latina. Escolha, arraste e poste.",
+  other: {
+    "facebook-domain-verification": "22j97gr68owhcm97qajesaias2icyr",
+  },
 };
 
 export default function RootLayout({
