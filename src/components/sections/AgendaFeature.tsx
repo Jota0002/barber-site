@@ -117,7 +117,7 @@ export default function AgendaFeature() {
       <WatchDemoModal
         open={open}
         onClose={() => setOpen(false)}
-        youtubeId="W0GY8h_l0A4"
+        youtubeId="2Px68LcwIBg"
       />
     </section>
   );
