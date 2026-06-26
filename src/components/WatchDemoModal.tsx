@@ -42,7 +42,7 @@ export default function WatchDemoModal({
               <div className="aspect-[9/16] w-full overflow-hidden rounded-2xl border border-white/10 bg-black shadow-2xl shadow-black/70">
                 <iframe
                   className="h-full w-full"
-                  src={`https://www.youtube.com/embed/${youtubeId}?autoplay=1&rel=0&modestbranding=1`}
+                  src={`https://www.youtube.com/embed/${youtubeId}?autoplay=1&mute=0&rel=0&modestbranding=1&playsinline=1`}
                   title={title}
                   allow="autoplay; encrypted-media; picture-in-picture"
                   allowFullScreen
